@@ -5,9 +5,9 @@
 cask "a-file-manager" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.3.0"
-  sha256 arm:   "0b217e480af0eeda6d4b6a1c9913b24f60eb912e057934a64939da42ad6a0d58",
-         intel: "be77d67ae2691389883ce4a564e36b3cfbd97702d88f6112e040f00a17d3f0da"
+  version "0.4.0"
+  sha256 arm:   "da6e55d291119def33d3f6fd0e8d9da90b8ce6b282d47832e37879bfe9ec6117",
+         intel: "ac1227d199202abe9cd324a5142dd626d6e24040c838cece252490dd27c47c28"
 
   url "https://github.com/awamwang/a-file-manager/releases/download/v#{version}/A.File.Manager_#{version}_#{arch}.app.zip"
   name "A File Manager"
